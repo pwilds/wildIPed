@@ -71,8 +71,4 @@ api_token = 'tu_api_token'
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request en el repositorio.
-
-## Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
 --
