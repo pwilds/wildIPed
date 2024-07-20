@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado de Búsqueda</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Resultado de Búsqueda</h1>
+        <div class="card mt-4">
+            <div class="card-body">
+                <p><strong>IP:</strong> {{ data.ip }}</p>
+                <p><strong>Ciudad:</strong> {{ data.city }}</p>
+                <p><strong>Región:</strong> {{ data.region }}</p>
+                <p><strong>País:</strong> {{ data.country }}</p>
+                <p><strong>Ubicación (Latitud, Longitud):</strong> {{ data.loc }}</p>
+                <p><strong>Organización:</strong> {{ data.org }}</p>
+                <p><strong>Código Postal:</strong> {{ data.postal }}</p>
+                <p><strong>Zona Horaria:</strong> {{ data.timezone }}</p>
+                <a href="/" class="btn btn-secondary mt-3">Volver</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
